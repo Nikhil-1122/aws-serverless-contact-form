@@ -1,0 +1,9 @@
+User
+ ↓
+CloudFront
+ ↓
+S3 (Frontend)
+ ↓
+Lambda
+ ↓
+DynamoDB
