@@ -121,7 +121,7 @@
       }
 
       try {
-        const res = await fetch("https://32agyry6svqhba3oeoxlpuvpbi0khgri.lambda-url.ap-south-1.on.aws/", {
+        const res = await fetch("YOUR_LAMBDA_FUNCTION_URL", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ name, email, message })
@@ -143,3 +143,4 @@
 
 </body>
 </html>
+
